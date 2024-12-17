@@ -16,13 +16,13 @@ def round_image(image, radius_percentage=20):
     return rounded_image
 
 # Configuración de la página
-st.set_page_config(page_title="Generador de Códigos QR Redondeados", page_icon="🔗", layout="centered")
+st.set_page_config(page_title="Generador de Códigos QR Gratis", page_icon="🔗", layout="centered")
 
 # Título de la aplicación
-st.title("Generador de Códigos QR con Bordes Redondeados y Logo")
+st.title("Generador de Códigos QR Gratis")
 
 # Entrada de texto o URL
-texto_qr = st.text_input("Texto o URL para el código QR", placeholder="https://www.ejemplo.com")
+texto_qr = st.text_input("Coloca un texto o URL para crear tu código QR", placeholder="https://www.ejemplo.com")
 
 # Crear un expander para la "Configuración avanzada"
 with st.expander("Configuración avanzada", expanded=False):
